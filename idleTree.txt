@@ -1,0 +1,24 @@
+PhishingDetection/                    # Root directory for your project
+│
+├── data/                             # Data directory
+│   ├── training_data.csv             # Training dataset
+│   ├── testing_data.csv              # Testing dataset
+│
+├── notebooks/                        # Jupyter Notebook files
+│   ├── data_preparation.ipynb        # Notebook for data preprocessing
+│   ├── model_training.ipynb          # Notebook for model training
+│   ├── model_evaluation.ipynb        # Notebook for model evaluation
+│   ├── model_inference.ipynb         # Notebook for making predictions
+│
+├── src/                              # Source code directory
+│   ├── model.py                      # Python script for defining your ML model
+│   ├── data_processing.py            # Python script for data preprocessing
+│   ├── evaluation.py                 # Python script for model evaluation
+│   ├── inference.py                  # Python script for making predictions
+│
+├── saved_models/                     # Directory to store your trained models
+│   ├── model.pkl                     # Serialized trained model
+│
+├── requirements.txt                  # File specifying project dependencies
+├── README.md                         # Project documentation
+├── LICENSE                           # Project license information
