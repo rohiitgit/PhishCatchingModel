@@ -1,0 +1,1 @@
+tensorflow, Keras, beautifulsoup, requests, urllib, re, tldextract, spacy
